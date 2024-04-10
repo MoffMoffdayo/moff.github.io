@@ -3,8 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: Black;
-  background-color: #FFEEAA;
+  --theme-color: #00a0a0;
 }
 
 * {
@@ -48,7 +47,7 @@ ul {
   list-style: none;
 }
 li:before {
-  
+  content: "★";
   color: var(--theme-color);
 }
 
